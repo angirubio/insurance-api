@@ -225,7 +225,7 @@ public class PolicyController {
         return policyService.getPolicyById(id);
     }
 
-    @PostMapping
+    @PostMapp ing
     public Policy createPolicy(@RequestBody Policy policy) {
         return policyService.createPolicy(policy);
     }
